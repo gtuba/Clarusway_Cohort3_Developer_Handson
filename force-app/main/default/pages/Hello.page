@@ -1,0 +1,17 @@
+<apex:page >
+
+ <apex:pageBlock title="Block 1">
+ 
+  <apex:pageBlockSection title="page block section 1">
+  <p> section 1 content here ....</p>
+  </apex:pageBlockSection>
+   </apex:pageBlock> 
+    
+   <apex:pageBlock title="Block 2"> 
+   
+  <apex:pageBlockSection title="page block section 2">
+  <p> section 2 content here ....</p>
+  </apex:pageBlockSection>
+   </apex:pageBlock>
+     
+   </apex:page>
