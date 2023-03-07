@@ -1,0 +1,18 @@
+<apex:page controller="KitapClass">
+    <apex:pageBlock >
+        <h1>ID</h1>
+        <br/>
+        <apex:outputText value="{!tekKayit.Id}"/>
+        <br/>        
+        <h1>ISIM</h1>
+        <br/>
+        <apex:outputText value="{!tekKayit.Name}"/>
+        <br/> 
+        <apex:form >
+            <apex:inputText value="{!isim}"/>
+            <apex:commandLink action="{!GuncelleMethod}">Kaydet
+            <apex:param name="gunid" value="{!tekKayit.id}"/>
+            </apex:commandLink>
+        </apex:form>
+    </apex:pageBlock>
+</apex:page>
