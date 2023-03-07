@@ -1,22 +1,30 @@
 # Handson Deveoper Project for Clarusway Salesforce Bootcamp Cohort-3 Students : Open House Show App for New Again Houses LLC
 
 ## Description
-New Again Houses® was born in Bristol in 2008 with one simple mission: to solve real estate problems. That mission has grown and evolved throughout the years, and now we serve homeowners not only in the Tri Cities area, but all across the country. https://newagainhouses.com/
+
+New Again Houses® was born in Bristol in 2008 with one simple mission: to solve real estate problems. That mission has grown and evolved throughout the years, and now we serve homeowners not only in the Tri Cities area, but all across the country. 
+
+https://newagainhouses.com/
+
 New Again Houses was has recently implemented Salesforce with Triforcia and they are very happy with the service provided. Kudos to you since you were the hereos of the existing projet!
+
 They have additional requirements to implement on Salesforce
 
 ## Problem Statement
 
-- New Again Houses needs an open house management software 
+New Again Houses needs an open house management software 
+
 which will help them to manage their open houses effectively along with
  
-franchise owner,
-customer, 
-open house address, 
-and time information. 
+- franchise owner,
 
-After many hours of meetings, the following 
-plan has been prepared.
+- customer, 
+
+- open house address, 
+
+- and time information. 
+
+After many hours of meetings, the following plan has been prepared.
 
 ![project](project.png)
 
@@ -24,75 +32,131 @@ plan has been prepared.
 
 
 **Open House**
+
 Open House Name ( Standard ﬁeld ) 
-Street*
-City*
-State*
-Postal code
-Country*
-Google Maps Link
-Is Active (Checkbox)
+
+- Street*
+
+- City*
+
+- State*
+
+- Postal code
+
+- Country*
+
+- Google Maps Link
+
+- Is Active (Checkbox)
+
 
 **Open House Show**
-Open House Show Name ( Standard ﬁeld ) 
-Open House (MD Open House)
-Show Date*
-Start Time*
-End Time*
-Max Number of  Visitors 
-Actual Number of Visitors
-Remaining Number Visitors 
-Open House is Active (Formula Open House - Is Active field)
-Show Type (Virtual, Physical)
-Is Live Show(Checkbox)
-Address
-Is Published (Checkbox)
+
+- Open House Show Name ( Standard ﬁeld ) 
+
+- Open House (MD Open House)
+
+- Show Date*
+
+- Start Time*
+
+- End Time*
+
+- Max Number of  Visitors 
+
+- Actual Number of Visitors
+
+- Remaining Number Visitors 
+
+- Open House is Active (Formula Open House - Is Active field)
+
+- Show Type (Virtual, Physical)
+
+- Is Live Show(Checkbox)
+
+- Address
+
+- Is Published (Checkbox)
+
 
 **Franchise Owner**
-Full Name ( Standard ﬁeld ) 
-City
-State
-Postal code
-Country
-Email*
-Phone
-Franchisee since
-Is Active?
+
+- Full Name ( Standard ﬁeld ) 
+
+- City
+
+- State
+
+- Postal code
+
+- Country
+
+- Email*
+
+- Phone
+
+- Franchisee since
+
+- Is Active?
 
 
 **Visitor**
-Full Name( Standard ﬁeld ) 
-Email*
-Phone
+
+- Full Name( Standard ﬁeld ) 
+
+- Email*
+
+- Phone
+
 
 **Agent**
-Full Name ( Standard ﬁeld ) 
-Email*
-Phone
-Working with Franchise (Lookup Franchise Owner)
+
+- Full Name ( Standard ﬁeld ) 
+
+- Email*
+
+- Phone
+
+- Working with Franchise (Lookup Franchise Owner)
+
 
 **Open House Show Agent**
-Open House Show (MD Open House Show)
-Agent(MD Agent)
+
+- Open House Show (MD Open House Show)
+
+- Agent(MD Agent)
+
 
 **Open House Show Visitors**
-Open House Show (MD Open House Show)
-Visitor(MD Visitor)
-Google Maps Link**
-Street**
-City**
-State**
-Postal code**
-Country**
-Email**
+
+- Open House Show (MD Open House Show)
+
+- Visitor(MD Visitor)
+
+- Google Maps Link**
+
+- Street**
+
+- City**
+
+- State**
+
+- Postal code**
+
+- Country**
+
+- Email**
+
 
 *Required fields
 
 ** Hide from Page Layout
 
+
 ##Data Modeling
 
 ![DataModeling.png](DataModeling.png)
+
 
 ## Organization Wide Defaults
 
@@ -100,9 +164,11 @@ Email**
 
 Note: This is the initial plan. If you think that an update needed, please feel free to change. But please test it first!
 
+
 ## Profile/Permission Set Settings
 
 ![ProfilesAndPermissionSets.png](ProfilesAndPermissionSets.png)
+
 C - Create
 
 R - Read
@@ -133,12 +199,17 @@ Find the Google Map Location for the Open House here: {Open House Google Map Lin
 Thanks,
 {Organization Name}
 
+
 ## Unit Test Classes
 
 At-least 75% code coverage. Try to achieve 95%
+
 Create TestUtility Class 
+
 Create mock data method in the test class
+
 Use Test.startTest & Test.stopTest
+
 Cover all possible scenarios (Test coverage is not the only criteria)
 
 
@@ -148,12 +219,14 @@ Please create all objects and fields yourself.
 
 But if you would like to skip this step, you can install the package (not recommended), please use the link below: 
 
-![Install Unmanaged App Package](https://login.salesforce.com/packaging/installPackage.apexp?p0=04tDm0000004urp&isdtp=p1)
+[Install Unmanaged App Package](https://login.salesforce.com/packaging/installPackage.apexp?p0=04tDm0000004urp&isdtp=p1)
+
+Install for Admin only recommended.
 
 
 ##Tasks
 
-![New Again House -  Open House Show App Tasks (Excel File)](NewAgainHousesIssues.xlsx)
+[New Again House -  Open House Show App Tasks (Excel File)](NewAgainHousesIssues.xlsx)
 
 
 ## At the end of the project, following topics are to be covered;
@@ -208,6 +281,7 @@ But if you would like to skip this step, you can install the package (not recomm
  
 - Manage a project using Jira project management tool and Git & Github for version control system
 
+
 ## Steps to Solution
   
 - Step 1: Download or clone project definition from `Clarusway_Cohort3_Developer_Handson` repo on Github 
@@ -218,13 +292,14 @@ But if you would like to skip this step, you can install the package (not recomm
 
 - Step 4: Complete Administrator implementation tasks  
 
-- Step 5: Write LWC components on the VS Code
+- Step 5: Write LWC components, Apex triggers, and classes on the VS Code
 
 - Step 6: Create Screen flow alternatives for each LWC component if available 
 
 - Step 7: Deploy your application on developer org using to showcase your app within your team.
 
 - Step 8: Prepeare your presentation on 17th March 2023 at 8 PM
+
 
 ## Considerations
 
@@ -244,5 +319,7 @@ But if you would like to skip this step, you can install the package (not recomm
 
 - [Lightning Component Library](https://developer.salesforce.com/docs/component-library/overview/components)
 
+- [Presentation for the Project(PDF)](NewAgainHousesDeveoperProject.pdf)
 
-[def]: project-001-snapshot.png
+
+
