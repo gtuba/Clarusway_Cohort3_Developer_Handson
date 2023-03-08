@@ -1,4 +1,4 @@
-rigger preventShowDateSelection on Open_House_Show_Agent__c (before insert, before update) {
+trigger preventShowDateSelection on Open_House_Show_Agent__c (before insert, before update) {
     // Get the list of show agents being updated/created
     List<Open_House_Show_Agent__c> showAgents = Trigger.new;
     // Get the list of shows booked for the selected dates
