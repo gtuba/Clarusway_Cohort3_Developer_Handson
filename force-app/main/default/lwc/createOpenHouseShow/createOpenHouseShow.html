@@ -1,0 +1,20 @@
+<template>
+	<lightning-card variant="Narrow" title="Create Open House Show Form">
+		<lightning-record-edit-form object-api-name="Open_House_Show__c">
+			<div class="slds-m-around_medium">
+					<lightning-input-field field-name="Open_House__c"></lightning-input-field>
+					<lightning-input-field field-name="Max_Number_of_Visitor__c"></lightning-input-field>
+					<lightning-input-field field-name="Show_Date__c"></lightning-input-field>
+					<lightning-input-field field-name="Show_Type__c"></lightning-input-field>
+					<lightning-input-field field-name="Open_House_is_Active__c"></lightning-input-field>
+					<lightning-input-field field-name="Is_Live_Show__c"></lightning-input-field>
+					<lightning-input-field field-name="Is_Published__c"></lightning-input-field>
+			</div>
+			<div class="slds-m-top_medium">
+				<p slot="footer">
+				<lightning-button type="submit" label="Create Open House Show"></lightning-button>
+				</p>
+			</div>
+		</lightning-record-edit-form>
+	</lightning-card>
+</template>
