@@ -1,0 +1,16 @@
+<template>
+    <lightning-card variant="Narrow" title="Open House Shows" icon-name="custom:custom24">
+        <div class="slds-m-around_medium">
+            <template if:true={Open_House_Shows__c.data}>
+                <lightning-datatable
+                    key-field="Id"
+                    data={Open_House_Shows__c.data}
+                    columns={columns}>
+                </lightning-datatable>
+            </template>
+            <template if:false={Open_House_Shows__c.data}>
+                <p>No Open House Shows found.</p>
+            </template>
+        </div>
+    </lightning-card>
+</template>
